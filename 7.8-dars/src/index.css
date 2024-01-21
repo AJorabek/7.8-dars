@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.number-container {
+  display: grid;
+  gap: 25px;
+  grid-template-columns: auto auto auto;
+}
+.btn-number {
+  width: 100%;
+  max-width: 100px;
+  cursor: pointer;
+  border-radius: 15px;
+  border: 1px solid black;
+  padding: 12px;
+  font-size: 25px;
+  transition: 0.3s;
+  background-color: #ffffff;
+  &:hover {
+    background-color: black;
+    color: #fff;
+  }
+}
+.del {
+  width: 100%;
+  max-width: 100px;
+  cursor: pointer;
+  border-radius: 15px;
+  padding: 12px;
+  background-color: #ffffff;
+  transition: 0.3s;
+  &:hover {
+    background-color: black;
+    color: #fff;
+  }
+}
+.header {
+  width: 100%;
+  max-width: 970px;
+  position: relative;
+  margin-left: 50px;
+}
+.input {
+  width: 100%;
+  padding: 25px 35px;
+  margin-bottom: 50px;
+  border: none;
+}
+.form {
+  display: flex;
+  align-items: center;
+}
+.flag {
+  position: absolute;
+  right: 955px;
+  top: 10px;
+}
